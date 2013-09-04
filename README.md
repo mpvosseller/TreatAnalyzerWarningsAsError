@@ -1,9 +1,9 @@
 TreatAnalyzerWarningsAsError
 ============================
 
-This script can be used in Xcode to "treat analyzer warnings as errors". 
+This script can be used in Xcode to "treat analyzer warnings as errors" for Xcode 5.
 
-It was originally developed by Otto
+It was originally developed by Otto Schnurr
 http://stackoverflow.com/users/148076/otto
 
 and posted on stackoverflow.com here:
