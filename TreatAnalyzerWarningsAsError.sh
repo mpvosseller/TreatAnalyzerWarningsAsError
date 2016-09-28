@@ -35,7 +35,7 @@ function verify_clang_analysis_at_path()
 function verify_clang_analysis_for_object_file()
 {
   local object_file=$1
-  local analysis_directory=$TARGET_TEMP_DIR/StaticAnalyzer/$PROJECT_NAME/$PRODUCT_NAME/$CURRENT_VARIANT/$analyzer_arch
+  local analysis_directory=$TARGET_TEMP_DIR/StaticAnalyzer/$PROJECT_NAME/$TARGET_NAME/$CURRENT_VARIANT/$analyzer_arch
   local analysis_path=$analysis_directory/${object_file%.*}.plist
 
   # if this object file corresponds to a source file that clang analyzed...
